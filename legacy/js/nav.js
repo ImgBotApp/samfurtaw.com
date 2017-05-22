@@ -5,7 +5,6 @@ document.write('\
 				<map name="hiddenbutton">\
 					<area shape="rect" coords="20,20,30,30" href="secret.html" />\
 				</map>\
-				<img src="transparent.png" usemap="#hiddenbutton" />\
 			</div>\
 			<div class="navbar">\
 				<h1><a class="sitetitle" href="index.html">Samuel Furtaw</a></h1>\
