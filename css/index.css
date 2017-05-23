@@ -1,5 +1,5 @@
 ﻿body, h1, h2, h3, h4, h5 {
-    font-family: "Poppins", sans-serif
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -10,9 +10,80 @@ body {
     margin-bottom: -6px;
     margin-top: 16px;
     opacity: 0.8;
-    cursor: pointer
+    cursor: pointer;
 }
 
-.w3-half img:hover {
-    opacity: 1
+    .w3-half img:hover {
+        opacity: 1;
+    }
+
+#mySidebar {
+    z-index: 3;
+    width: 300px;
+    font-weight: bold;
+}
+
+#closeButton {
+    width: 100%;
+    font-size: 22px;
+}
+
+#myOverlay {
+    cursor: pointer;
+}
+
+#pageContent {
+    margin-left: 340px;
+    margin-right: 40px;
+}
+
+#showcase {
+    margin-top: 80px;
+}
+
+hr {
+    width: 50px;
+    border: 5px solid cyan;
+}
+
+.modalImage {
+    width: 100%;
+}
+
+#modal01 {
+    padding-top: 0;
+}
+
+#introduction {
+    margin-top: 75px;
+}
+
+#education {
+    margin-top: 75px;
+}
+
+#experience {
+    margin-top: 75px;
+}
+
+#files {
+    margin-top: 75px;
+}
+
+#contact {
+    margin-top: 75px;
+}
+
+#contactform {
+    width: 1px;
+    min-width: 100%;
+}
+
+#copyright {
+    margin-top: 75px;
+    padding-right: 58px;
+}
+
+a {
+    text-decoration: none;
 }
