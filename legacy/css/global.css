@@ -40,7 +40,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    border-left: dashed rgba(255, 79, 79, 1);
+    border-left: dashed rgba(84, 210, 229, 1);
 }
 
 .links {
@@ -87,7 +87,7 @@ li a {
 }
 
 .hover:hover {
-    background-color: rgba(255, 79, 79, 1);
+    background-color: rgba(84, 210, 229, 1);
     color: white;
 }
 
@@ -97,7 +97,7 @@ li a {
     margin: 16px;
     padding: 16px;
     width: 97%;
-    border-bottom: 2px solid rgba(255, 79, 79, 1);
+    border-bottom: 2px solid rgba(84, 210, 229, 1);
     background-color: rgba(238, 238, 238, 1);
     right: 0;
     position: absolute;
@@ -141,7 +141,7 @@ li a {
     border-style: solid;
     border-width: 1px;
     border-color: rgba(212, 212, 212, 1);
-    border-bottom: 2px solid rgba(255, 79, 79, 1);
+    border-bottom: 2px solid rgba(84, 210, 229, 1);
     background-color: rgba(238, 238, 238, 1);
     position: absolute;
 }
