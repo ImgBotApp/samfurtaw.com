@@ -1,2 +1,2 @@
-# sfurtaw.github.io
+# samfurtaw.com
 Website for Samuel Furtaw
