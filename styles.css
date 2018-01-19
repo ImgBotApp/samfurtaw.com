@@ -10,6 +10,15 @@ body::before {
     top: 0;
     position: fixed;
 }
+#view-source {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
 @media (max-width: 512px)  and (min-resolution: 1.5dppx),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
@@ -51,6 +60,7 @@ body .demo-blog {
   flex-direction: column;
   align-items: stretch;
   min-height: 360px;
+  cursor: default;
 }
 .demo-blog .mdl-card__title {
   padding: 16px;
@@ -64,7 +74,7 @@ body .demo-blog {
   flex-grow: 1;
   flex-direction: row;
   align-items: flex-end;
-  cursor: pointer;
+  cursor: default;
 }
 .demo-blog .mdl-card__media a,
 .demo-blog .mdl-card__title a {
@@ -111,7 +121,7 @@ body .demo-blog {
 }
 .demo-blog .meta > .meta__favorites .material-icons {
   font-size: 2em;
-  cursor: pointer;
+  cursor: default;
   margin-left: 12px;
 }
 .demo-blog .mdl-card .meta.meta--fill {
@@ -124,13 +134,13 @@ body .demo-blog {
   display: flex;
   flex-direction: column;
 }
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.coffee-pic {
+.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.intro-box {
   order: 0;
 }
 .demo-blog.is-small-screen .demo-blog__posts > .mdl-card.something-else {
   order: -1;
 }
-.demo-blog .coffee-pic .mdl-card__media {
+.demo-blog .intro-box .mdl-card__media {
   background-image: url('images/coffee.jpg');
 }
 .demo-blog .something-else .mdl-card__media {
