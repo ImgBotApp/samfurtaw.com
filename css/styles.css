@@ -490,3 +490,7 @@ demo-card-square.mdl-card {
   min-height: 250px;
   background-image: url('../img/computerstorage.png');
 }
+
+.experiencetext {
+  min-height: 200px;
+}
