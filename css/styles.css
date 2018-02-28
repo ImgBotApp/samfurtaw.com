@@ -109,7 +109,6 @@ body {
 
 .mdl-card__supporting-text:not(:last-child) {
   box-sizing: border-box;
-  min-height: 175px;
 }
 
 .demo-blog:not(.demo-blog--blogpost) .mdl-card__supporting-text~.mdl-card__supporting-text {
@@ -491,6 +490,14 @@ demo-card-square.mdl-card {
   background-image: url('../img/computerstorage.png');
 }
 
+.educationtext {
+  min-height: 175px;
+}
+
 .experiencetext {
   min-height: 200px;
+}
+
+.filestext {
+  min-height: 75px;
 }
